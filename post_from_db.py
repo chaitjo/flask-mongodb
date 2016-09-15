@@ -1,6 +1,5 @@
-from requests import get, post, put, delete
+from requests import post
 import json
-from datetime import datetime
 
 with open("dataset.json", "r") as data_file:
 	data = data_file.readlines()
